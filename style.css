@@ -1,10 +1,18 @@
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    border: solid 1px;
+body {
+    background-color: black;
+    color: yellow;
+    text-align: center;
     width: 300px;
     height: 300px;
 }
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: dashed 3px yellow;
+    width: 300px;
+    height: 300px;
+}       
 
 .grid div {
     width: 20px;
@@ -17,13 +25,15 @@
 
 .invader {
     background-color: purple;
-    border-radius: 10px;
+    border-radius: 50%;
 }
 
 .boom {
     background-color: red;
+    border-radius: 50%;
 }
 
 .laser {
     background-color: yellow;
+    border-radius: 50%;
 }
