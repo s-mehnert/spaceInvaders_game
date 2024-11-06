@@ -1,22 +1,27 @@
+html {
+    max-width: 500px;
+    margin: auto;
+}
+
 body {
     background-color: black;
     color: yellow;
     text-align: center;
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 450px;
 }
 
 .grid {
     display: flex;
     flex-wrap: wrap;
     border: dashed 3px yellow;
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 450px;
 }       
 
 .grid div {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 .shooter {
